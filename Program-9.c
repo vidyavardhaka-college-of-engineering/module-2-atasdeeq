@@ -1,8 +1,6 @@
 //linear search 
 //INPUT- 4 1 2 3 4 3
 //OUTPUT - 3
-
-
 #include <stdio.h>
 int main()
 {
@@ -28,7 +26,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",search );
 
   return 0;
 }
