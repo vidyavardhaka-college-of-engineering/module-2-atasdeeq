@@ -2,7 +2,7 @@
 //OUTPUT: The largest and smallest elements are 60 and 10
 
 #include <stdio.h>
-
+#include<stdlib.h>
 int main()
 {
     int arr[100], n, i, small, large;
@@ -11,7 +11,7 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        //printf("Enter the value of a[%d] : ",i);
+       //printf("Enter the value of a[%d] : ",i);
         scanf("%d", &arr[i]);
     }
 
