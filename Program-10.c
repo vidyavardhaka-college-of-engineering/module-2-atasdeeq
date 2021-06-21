@@ -31,7 +31,7 @@ int main()
         }
     }
 
-    printf("The largest and the smallest are %d and %d", large,small);
+    printf("The largest and smallest are %d and %d", large,small);
     
     return 0;
 }
