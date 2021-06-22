@@ -6,20 +6,20 @@ int main(){
   printf("Enter size of the array,  array elemnts and the key");
   scanf("%d",&n);
   //printf("Enter array elements");
-  for(i=0;i<n;i++)//missing code
-  scanf("%d",&a[i]);//missing code
+  for(i=0;i<n;i++)
+  scanf("%d",&a[i]);
   //printf("Enter an integer value : ");
   scanf("%d",&key);
   
-    for(i=0;i<n;i++){
-  if(key==a[]) //missing code
-  {
-    //flag=1;
-    c++;
-  }
+    for(i=0;i<n;i++)
+    {
+     if(key==a[i]) 
+      {
+       //flag=1;
+        c++;
+      } 
     }
-   printf("The number of times the  key element  is repeated  is %d",c);//missing code
-  
+   printf("The number of times the  key element  is repeated  is %d",c);
     
     return(0);
 }
